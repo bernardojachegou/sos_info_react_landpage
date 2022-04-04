@@ -4,12 +4,12 @@ import CarouselComponent from '../../../../components/carousel';
 const RiskAreasSection = () => {
     return (
         <HeroContainer id="risk-section">
-            <HeroBg>
-                <CarouselComponent />
-            </HeroBg>
             <HeroContent>
                 <HeroH1>Áreas de risco</HeroH1>
             </HeroContent>
+            <HeroBg>
+                <CarouselComponent />
+            </HeroBg>
         </HeroContainer>
     );
 };

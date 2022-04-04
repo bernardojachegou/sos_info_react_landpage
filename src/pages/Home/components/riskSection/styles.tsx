@@ -8,9 +8,17 @@ export const HeroContainer = styled.div`
     justify-content: center;
     height: 860px;
     max-width: 1100px;
+    @media screen and (max-width: 1100px) {
+        flex-direction: column;
+    }
 `;
 
-export const HeroBg = styled.div``;
+export const HeroBg = styled.div`
+    width: 50%;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+    }
+`;
 
 export const HeroContent = styled.div`
     padding: 8px 24px;
@@ -20,8 +28,8 @@ export const HeroContent = styled.div`
     @media screen and (max-width: 420px) {
         padding: 0;
     }
-    @media screen and (max-width: 768px) {
-        padding: 0;
+    @media screen and (max-width: 1100px) {
+        padding-bottom: 50px;
     }
 `;
 
@@ -30,7 +38,7 @@ export const HeroH1 = styled.h1`
     font-size: 48px;
     text-align: center;
     width: 450px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         font-size: 40px;
         max-width: 400px;
     }

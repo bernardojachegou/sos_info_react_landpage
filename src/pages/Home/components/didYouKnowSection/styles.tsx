@@ -28,7 +28,7 @@ export const HeroContent = styled.div`
     @media screen and (max-width: 420px) {
         padding: 0;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         padding: 0;
     }
 `;
@@ -38,7 +38,7 @@ export const HeroH1 = styled.h1`
     font-size: 48px;
     text-align: center;
     width: 450px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         font-size: 40px;
         max-width: 400px;
     }
@@ -53,7 +53,7 @@ export const HeroP = styled.p`
     font-size: 30px;
     text-align: center;
     max-width: 600px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         font-size: 24px;
     }
     @media screen and (max-width: 480px) {

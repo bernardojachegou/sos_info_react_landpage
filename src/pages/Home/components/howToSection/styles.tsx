@@ -4,7 +4,7 @@ export const InfoContainer = styled.div`
     color: #fff;
     background-color: ${({ lightBgColor }: any) =>
         lightBgColor ? '#f6f6f6' : '#f6f6f6'};
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         padding: 100px 0;
     }
 `;
@@ -27,7 +27,7 @@ export const InfoRow = styled.div`
     align-items: center;
     grid-template-areas: ${({ imgStart }: any) =>
         imgStart ? `'col2 col1'` : `'col1 col2'`};
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 820px) {
         grid-template-areas: 'col1' 'col2';
     }
 `;
@@ -98,6 +98,9 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 12px;
+    @media screen and (max-width: 820px) {
+        display: none;
+    }
 `;
 
 export const ButtonLink = styled.a`

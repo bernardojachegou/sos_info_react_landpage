@@ -24,6 +24,9 @@ const Sidebar = ({ isOpen, toggle }: any) => {
                     <SidebarLink to="learn-sms" onClick={toggle}>
                         SMS
                     </SidebarLink>
+                    <SidebarLink to="risk-section" onClick={toggle}>
+                        Áreas de risco
+                    </SidebarLink>
                     <SidebarLink to="contact" onClick={toggle}>
                         Links úteis
                     </SidebarLink>
