@@ -7,14 +7,14 @@ import {
     HeroP,
     HeroBtnWrapper,
 } from './styles';
-import { Button } from '../button/buttonElement';
-import riskArea from '../../assets/imgs/risk-area1.png';
+import { Button } from '../../../../components/button/buttonElement';
+import banner from '../../../../assets/imgs/banner.png';
 
-function RiskSection() {
+const DidYouKnowSection = () => {
     return (
-        <HeroContainer id="risk-section">
+        <HeroContainer id="home">
             <HeroBg>
-                <ImageBg src={riskArea} />
+                <ImageBg src={banner} />
             </HeroBg>
             <HeroContent>
                 <HeroH1>
@@ -35,6 +35,6 @@ function RiskSection() {
             </HeroContent>
         </HeroContainer>
     );
-}
+};
 
-export default RiskSection;
+export default DidYouKnowSection;

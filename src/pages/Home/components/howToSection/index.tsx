@@ -13,12 +13,12 @@ import {
     Img,
     ButtonLink,
 } from './styles';
-import cellphone from '../../assets/imgs/cellphone.jpeg';
+import cellphone from '../../../../assets/imgs/cellphone.jpeg';
 
-const InfoSection = ({ id }: any) => {
+const HowToSection = () => {
     return (
         <>
-            <InfoContainer id='learn-sms'>
+            <InfoContainer id="learn-sms">
                 <InfoWrapper>
                     <InfoRow>
                         <Column1>
@@ -61,4 +61,4 @@ const InfoSection = ({ id }: any) => {
     );
 };
 
-export default InfoSection;
+export default HowToSection;

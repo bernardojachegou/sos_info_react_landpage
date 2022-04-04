@@ -11,7 +11,7 @@ import {
     ImgWrap,
     Img,
 } from './styles';
-import alert from '../../assets/imgs/alert.png';
+import alert from '../../../../assets/imgs/alert.png';
 
 const AlertSection = () => {
     return (
